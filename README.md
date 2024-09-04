@@ -1,8 +1,8 @@
-# Neuroclue Technical Project
+# Anyfile Project
 
 ## Overview
 
-The Neuroclue Technical Project is a C++ application designed to handle and process data from CSV and JSON files (or custom formatted - implementation needed), in my case, focusing on accelerometer data. The application reads data, computes the total acceleration for each record, and writes the processed data back to an output file.
+Anyfile Project is a C++ application designed to handle and process data from CSV and JSON files (or custom formatted - implementation needed), in my case, focusing on accelerometer data. The application reads data, computes the total acceleration for each record, and writes the processed data back to an output file.
 
 ## Features
 
