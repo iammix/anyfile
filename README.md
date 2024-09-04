@@ -19,7 +19,7 @@ Anyfile Project is a C++ application designed to handle and process data from CS
 
 ## Project Structure
 ```
-neuroclue/
+anyfile/
 ├── CMakeLists.txt              # CMake Main configuration
 ├── include/                    # Header files
 │   ├── FileDump.h              # Header for file dump
@@ -50,8 +50,8 @@ neuroclue/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/iammix/neuroclue.git
-cd neuroclue
+git clone https://github.com/iammix/anyfile.git
+cd anyfile
 ```
 ### Windows(MinGW)
 ```
@@ -75,9 +75,9 @@ mingw32-make
 ctest
 
 # Run the main application
-.build/neuroclue.exe data.json
+.build/anyfile.exe data.json
 or
-.build/neuroclue.exe data.csv
+.build/anyfile.exe data.csv
 ```
 ### Unix-based System
 ```
@@ -102,12 +102,12 @@ make
 ctest
 
 # Run the main application
-.build/neuroclue data.json
+.build/anyfile data.json
 or
-.build/neuroclue data.csv
+.build/anyfile data.csv
 ```
 ## Extending the Application with Custom File Types
-To extend the Neuroclue Project to support custom file types, see the following steps:
+To extend the Anyfile Project to support custom file types, see the following steps:
 
 ### 1. Implement a New Handler
 Create a new handler class in the *src/* directory. This class should inherit from FileHandler and implement the readData, processData, and writeData methods.
@@ -207,7 +207,7 @@ std::unique_ptr<FileHandler> FileDump::createHandler(const std::string& filePath
 
 ```
 
-By following these steps, you can easily extend the Neuroclue Technical Project to support new file formats with minimal changes to the existing codebase, ensuring flexibility and adaptability for various data formats.
+By following these steps, you can easily extend the Anyfile Project to support new file formats with minimal changes to the existing codebase, ensuring flexibility and adaptability for various data formats.
 
 
 ## Acknowledgements
